@@ -1,6 +1,8 @@
 # GIT版本控制
+<br></br>
 
 >GIT是分散式版本控制系統:
+
 
 Git可以把檔案的狀態作為更新歷史記錄保存起來。因此可以把編輯過的檔案復原到以前的狀態，也可以顯示編輯過內容的差異。
 <ul>
@@ -109,7 +111,7 @@ Git的標準提交訊息：
 
 <li>git checkout -b  切換並建立其他分支</li>
 
-<li>git branch    能建立和刪除分支，如果不加任何參數，它會給出目前所有分支的清單,分支前的 * 字元：它表示目前所在的分支。也就是說，如果現在提交更新，master 分支將隨著開發進度前移。</li>
+<li>git branch    能建立和刪除分支，如果不加任何參數，它會給出目前所有分支的清單,分支前的'*'字元：它表示目前所在的分支。也就是說，如果現在提交更新，master 分支將隨著開發進度前移。</li>
 
 <li> git branch -v    查看各個分支最後一個提交物件的資訊</li>
 
@@ -117,7 +119,7 @@ Git的標準提交訊息：
 
 <li>git branch--no-merged 從該清單中篩選出你尚未與目前分支合併的分支</li>
 
-<li>git branch -d   清單中沒有 * 的分支可以用此指令來刪掉(若是還未合併進來的分支，由於這些分支中還包含著尚未合併進來的工作成果，所以簡單地用 git branch -d 刪除該分支會提示錯誤，因為那樣做會丟失資料)</li>
+<li>git branch -d   清單中沒有'*'字元的分支可以用此指令來刪掉(若是還未合併進來的分支，由於這些分支中還包含著尚未合併進來的工作成果，所以簡單地用 git branch -d 刪除該分支會提示錯誤，因為那樣做會丟失資料)</li>
 
 <li>git branch-D    強制執行刪除選項</li>
 
@@ -154,6 +156,6 @@ Git的標準提交訊息：
 
 >線上資料
 <ul>
-https://git-scm.com/book/zh/v2/Git-分支-分支的新建与合并
-https://backlog.com/git-tutorial/tw/intro/intro1_1.html
+<li>https://git-scm.com/book/zh/v2/Git-分支-分支的新建与合并</li>
+<li>https://backlog.com/git-tutorial/tw/intro/intro1_1.html</li>
 </ul>
