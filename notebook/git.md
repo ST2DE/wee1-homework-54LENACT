@@ -105,6 +105,28 @@ Git的標準提交訊息：
 
 <li> git status    查詢當前工作目錄的詳細狀態 </li>
 
+<li>git checkout     切換到其他分支</li>
+
+<li>git checkout -b  切換並建立其他分支</li>
+
+<li>git branch    能建立和刪除分支，如果不加任何參數，它會給出目前所有分支的清單,分支前的 * 字元：它表示目前所在的分支。也就是說，如果現在提交更新，master 分支將隨著開發進度前移。</li>
+
+<li> git branch -v    查看各個分支最後一個提交物件的資訊</li>
+
+<li>git branch --merged   從該清單中篩選出你已經與目前分支合併的分支</li>
+
+<li>git branch--no-merged 從該清單中篩選出你尚未與目前分支合併的分支</li>
+
+<li>git branch -d   清單中沒有 * 的分支可以用此指令來刪掉(若是還未合併進來的分支，由於這些分支中還包含著尚未合併進來的工作成果，所以簡單地用 git branch -d 刪除該分支會提示錯誤，因為那樣做會丟失資料)</li>
+
+<li>git branch-D    強制執行刪除選項</li>
+
+<li>git pull 就是去上線抓東西下來（Fetch），並且更新本機的進度（Merge）  </li>
+
+<li> git pull --rebase 在 Fetch 完成之後，便會使用 Rebase 方式進行合併 </li>
+
+<li>git fetch 執行 pull，遠端數據庫的內容會自動合併。但是，若是想確認遠端數據庫的內容卻不是真的想合併，在這種情況下，請使用 fetch。</li>
+
 <li>git help add  查詢完整的文件</li>
 
 <li>git commit -m "版本紀錄的說明文字"   將檔案提交入Repository，只能輸入一行</li>
@@ -130,3 +152,8 @@ Git的標準提交訊息：
 <li>git mv 檔案名 要改的檔案名  變更檔案或目錄的名稱</li>
 </ul>
 
+>線上資料
+<ul>
+https://git-scm.com/book/zh/v2/Git-分支-分支的新建与合并
+https://backlog.com/git-tutorial/tw/intro/intro1_1.html
+</ul>
