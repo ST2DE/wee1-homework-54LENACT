@@ -31,7 +31,7 @@
 }
 
 .title {
-    font-family: Microsoft JhengHei;
+    font-family: Georgia;
     font-size: 64px;
     font-weight: bold;
     text-align: center;
@@ -39,7 +39,7 @@
 }
 
 .text {
-    font-family: Microsoft JhengHei;
+    font-family: Georgia;
     font-size: 26px;
     margin: 20px;
 }
